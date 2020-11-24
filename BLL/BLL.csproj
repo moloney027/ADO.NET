@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+        <ProjectGuid>{80FE53B8-12EE-476B-A5C7-B83DB5FEEC7D}</ProjectGuid>
+        <OutputType>Library</OutputType>
+        <AppDesignerFolder>Properties</AppDesignerFolder>
+        <RootNamespace>BLL</RootNamespace>
+        <AssemblyName>BLL</AssemblyName>
+        <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+        <FileAlignment>512</FileAlignment>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\Debug\</OutputPath>
+        <DefineConstants>DEBUG;TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugType>pdbonly</DebugType>
+        <Optimize>true</Optimize>
+        <OutputPath>bin\Release\</OutputPath>
+        <DefineConstants>TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <ItemGroup>
+      <Compile Include="AdaptationsLogic.cs" />
+      <Compile Include="AuthorLogic.cs" />
+      <Compile Include="AuthorsAndBooksLogic.cs" />
+      <Compile Include="BookCopyLogic.cs" />
+      <Compile Include="BookIssuanceLogic.cs" />
+      <Compile Include="BookLogic.cs" />
+      <Compile Include="FineLogic.cs" />
+      <Compile Include="GenreLogic.cs" />
+      <Compile Include="ListGenreLogic.cs" />
+      <Compile Include="PublishingHouseLogic.cs" />
+      <Compile Include="ReadersLogic.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\AbstractBLL\AbstractBLL.csproj">
+        <Project>{ed16cd9b-44ff-4b63-aa6f-4ed09b11895e}</Project>
+        <Name>AbstractBLL</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\AbstractDAL\AbstractDAL.csproj">
+        <Project>{df9217ec-b6f0-4cb9-8021-70700c9543d0}</Project>
+        <Name>AbstractDAL</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\DAL\DAL.csproj">
+        <Project>{a3631ab8-1651-40c0-ae41-1d3d915b2cfe}</Project>
+        <Name>DAL</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\Entities\Entities.csproj">
+        <Project>{0def89c4-fcd2-4f32-ae56-1b3d8a199aab}</Project>
+        <Name>Entities</Name>
+      </ProjectReference>
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+    <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+         Other similar extension points exist, see Microsoft.Common.targets.
+    <Target Name="BeforeBuild">
+    </Target>
+    <Target Name="AfterBuild">
+    </Target>
+    -->
+</Project>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Projects\RiderProjects\LibrarySystem2" t="IncludeFlat">
+      <e p="AbstractBLL" t="IncludeRecursive">
+        <e p="AbstractBLL.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="IAdaptationsLogic.cs" t="Include" />
+        <e p="IAuthorLogic.cs" t="Include" />
+        <e p="IAuthorsAndBooksLogic.cs" t="Include" />
+        <e p="IBookCopyLogic.cs" t="Include" />
+        <e p="IBookIssuanceLogic.cs" t="Include" />
+        <e p="IBookLogic.cs" t="Include" />
+        <e p="IFineLogic.cs" t="Include" />
+        <e p="IGenreLogic.cs" t="Include" />
+        <e p="IListGenreLogic.cs" t="Include" />
+        <e p="IPublishingHouseLogic.cs" t="Include" />
+        <e p="IReadersLogic.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+      </e>
+      <e p="AbstractDAL" t="IncludeRecursive">
+        <e p="AbstractDAL.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="IAdaptationsDao.cs" t="Include" />
+        <e p="IAuthorDao.cs" t="Include" />
+        <e p="IAuthorsAndBooksDao.cs" t="Include" />
+        <e p="IBookCopyDao.cs" t="Include" />
+        <e p="IBookDao.cs" t="Include" />
+        <e p="IBookIssuanceDao.cs" t="Include" />
+        <e p="IFineDao.cs" t="Include" />
+        <e p="IGenreDao.cs" t="Include" />
+        <e p="IListGenreDao.cs" t="Include" />
+        <e p="IPublishingHouseDao.cs" t="Include" />
+        <e p="IReadersDao.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+      </e>
+      <e p="BLL" t="IncludeRecursive">
+        <e p="AdaptationsLogic.cs" t="Include" />
+        <e p="AuthorLogic.cs" t="Include" />
+        <e p="AuthorsAndBooksLogic.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="BLL.csproj" t="IncludeRecursive" />
+        <e p="BookCopyLogic.cs" t="Include" />
+        <e p="BookIssuanceLogic.cs" t="Include" />
+        <e p="BookLogic.cs" t="Include" />
+        <e p="FineLogic.cs" t="Include" />
+        <e p="GenreLogic.cs" t="Include" />
+        <e p="ListGenreLogic.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="PublishingHouseLogic.cs" t="Include" />
+        <e p="ReadersLogic.cs" t="Include" />
+      </e>
+      <e p="DAL" t="IncludeRecursive">
+        <e p="AdaptationsDao.cs" t="Include" />
+        <e p="AuthorDao.cs" t="Include" />
+        <e p="AuthorsAndBooksDao.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="BookCopyDao.cs" t="Include" />
+        <e p="BookDao.cs" t="Include" />
+        <e p="BookIssuanceDao.cs" t="Include" />
+        <e p="DAL.csproj" t="IncludeRecursive" />
+        <e p="FineDao.cs" t="Include" />
+        <e p="GenreDao.cs" t="Include" />
+        <e p="ListGenreDao.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="PublishingHouseDao.cs" t="Include" />
+        <e p="ReadersDao.cs" t="Include" />
+      </e>
+      <e p="Entities" t="IncludeRecursive">
+        <e p="Adaptations.cs" t="Include" />
+        <e p="Author.cs" t="Include" />
+        <e p="AuthorsAndBooks.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Book.cs" t="Include" />
+        <e p="BookCopy.cs" t="Include" />
+        <e p="BookIssuance.cs" t="Include" />
+        <e p="Entities.csproj" t="IncludeRecursive" />
+        <e p="Fine.cs" t="Include" />
+        <e p="Genre.cs" t="Include" />
+        <e p="ListGenre.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="PublishingHouse.cs" t="Include" />
+        <e p="Readers.cs" t="Include" />
+      </e>
+      <e p="LibrarySystem2.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Utils" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Dbsql.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Utils.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="WebApplication" t="IncludeRecursive">
+        <e p="App_Data" t="Include" />
+        <e p="App_Start" t="Include">
+          <e p="BundleConfig.cs" t="Include" />
+          <e p="FilterConfig.cs" t="Include" />
+          <e p="RouteConfig.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Content" t="Include">
+          <e p="bootstrap-theme.css" t="Include" />
+          <e p="bootstrap-theme.css.map" t="Include" />
+          <e p="bootstrap-theme.min.css" t="Include" />
+          <e p="bootstrap-theme.min.css.map" t="Include" />
+          <e p="bootstrap.css" t="Include" />
+          <e p="bootstrap.css.map" t="Include" />
+          <e p="bootstrap.min.css" t="Include" />
+          <e p="bootstrap.min.css.map" t="Include" />
+          <e p="Site.css" t="Include" />
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="BookController.cs" t="Include" />
+          <e p="BookIssuanceController.cs" t="Include" />
+          <e p="FineController.cs" t="Include" />
+          <e p="HomeController.cs" t="Include" />
+          <e p="ReaderController.cs" t="Include" />
+        </e>
+        <e p="favicon.ico" t="Include" />
+        <e p="fonts" t="Include">
+          <e p="glyphicons-halflings-regular.eot" t="Include" />
+          <e p="glyphicons-halflings-regular.svg" t="Include" />
+          <e p="glyphicons-halflings-regular.ttf" t="Include" />
+          <e p="glyphicons-halflings-regular.woff" t="Include" />
+          <e p="glyphicons-halflings-regular.woff2" t="Include" />
+        </e>
+        <e p="Global.asax" t="Include" />
+        <e p="Global.asax.cs" t="Include" />
+        <e p="Models" t="Include">
+          <e p="BookCopyModel.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="bootstrap.js" t="Include" />
+          <e p="bootstrap.min.js" t="Include" />
+          <e p="jquery-3.3.1.intellisense.js" t="Include" />
+          <e p="jquery-3.3.1.js" t="Include" />
+          <e p="jquery-3.3.1.min.js" t="Include" />
+          <e p="jquery-3.3.1.min.map" t="Include" />
+          <e p="jquery-3.3.1.slim.js" t="Include" />
+          <e p="jquery-3.3.1.slim.min.js" t="Include" />
+          <e p="jquery-3.3.1.slim.min.map" t="Include" />
+          <e p="jquery.validate-vsdoc.js" t="Include" />
+          <e p="jquery.validate.js" t="Include" />
+          <e p="jquery.validate.min.js" t="Include" />
+          <e p="jquery.validate.unobtrusive.js" t="Include" />
+          <e p="jquery.validate.unobtrusive.min.js" t="Include" />
+          <e p="modernizr-2.8.3.js" t="Include" />
+        </e>
+        <e p="Views" t="Include">
+          <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Book" t="Include">
+            <e p="AllBooks.cshtml" t="Include" />
+            <e p="GetBook.cshtml" t="Include" />
+          </e>
+          <e p="BookIssuance" t="Include">
+            <e p="GetBookIssuance.cshtml" t="Include" />
+          </e>
+          <e p="Fine" t="Include">
+            <e p="GetFine.cshtml" t="Include" />
+          </e>
+          <e p="Home" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
+          <e p="Reader" t="Include">
+            <e p="AllReaders.cshtml" t="Include" />
+            <e p="GetReader.cshtml" t="Include" />
+          </e>
+          <e p="Shared" t="Include">
+            <e p="_Layout.cshtml" t="Include" />
+            <e p="_LayoutAdmin.cshtml" t="Include" />
+            <e p="Error.cshtml" t="Include" />
+          </e>
+          <e p="Web.config" t="Include" />
+        </e>
+        <e p="Web.config" t="Include" />
+        <e p="Web.Debug.config" t="Include" />
+        <e p="Web.Release.config" t="Include" />
+        <e p="WebApplication.csproj" t="IncludeRecursive" />
+      </e>
+    </e>
+    <e p="C:\Users\Nataliya\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Nataliya\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_LibrarySystem2.976501355.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Nataliya\AppData\Roaming\JetBrains\Rider2020.2\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\Nataliya\AppData\Roaming\JetBrains\Rider2020.2\extensions" t="IncludeRecursive" />
+  </component>
+</project>

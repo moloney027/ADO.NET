@@ -1,0 +1,9 @@
+C:\Projects\RiderProjects\LibrarySystem2\AbstractBLL\bin\Debug\AbstractBLL.dll
+C:\Projects\RiderProjects\LibrarySystem2\AbstractBLL\bin\Debug\AbstractBLL.pdb
+C:\Projects\RiderProjects\LibrarySystem2\AbstractBLL\bin\Debug\Entities.dll
+C:\Projects\RiderProjects\LibrarySystem2\AbstractBLL\bin\Debug\Entities.pdb
+C:\Projects\RiderProjects\LibrarySystem2\AbstractBLL\obj\Debug\AbstractBLL.csprojAssemblyReference.cache
+C:\Projects\RiderProjects\LibrarySystem2\AbstractBLL\obj\Debug\AbstractBLL.csproj.CoreCompileInputs.cache
+C:\Projects\RiderProjects\LibrarySystem2\AbstractBLL\obj\Debug\AbstractBLL.csproj.CopyComplete
+C:\Projects\RiderProjects\LibrarySystem2\AbstractBLL\obj\Debug\AbstractBLL.dll
+C:\Projects\RiderProjects\LibrarySystem2\AbstractBLL\obj\Debug\AbstractBLL.pdb

@@ -1,0 +1,9 @@
+C:\Projects\RiderProjects\LibrarySystem2\AbstractDAL\bin\Debug\AbstractDAL.dll
+C:\Projects\RiderProjects\LibrarySystem2\AbstractDAL\bin\Debug\AbstractDAL.pdb
+C:\Projects\RiderProjects\LibrarySystem2\AbstractDAL\bin\Debug\Entities.dll
+C:\Projects\RiderProjects\LibrarySystem2\AbstractDAL\bin\Debug\Entities.pdb
+C:\Projects\RiderProjects\LibrarySystem2\AbstractDAL\obj\Debug\AbstractDAL.csprojAssemblyReference.cache
+C:\Projects\RiderProjects\LibrarySystem2\AbstractDAL\obj\Debug\AbstractDAL.csproj.CoreCompileInputs.cache
+C:\Projects\RiderProjects\LibrarySystem2\AbstractDAL\obj\Debug\AbstractDAL.csproj.CopyComplete
+C:\Projects\RiderProjects\LibrarySystem2\AbstractDAL\obj\Debug\AbstractDAL.dll
+C:\Projects\RiderProjects\LibrarySystem2\AbstractDAL\obj\Debug\AbstractDAL.pdb

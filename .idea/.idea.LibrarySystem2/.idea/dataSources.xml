@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Microsoft SQL Server - LibrarySystem@127.0.0.1" uuid="256da530-1dca-4ccd-9b81-e90aac017a95">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://127.0.0.1\MSSQLSERVER:1433;database=LibrarySystem</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="LibrarySystem@127.0.0.1" uuid="2b5ee7e5-3843-456b-aaec-c646c9eeb739">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://127.0.0.1\MSSQLSERVER:1433;database=LibrarySystem</jdbc-url>
+    </data-source>
+  </component>
+</project>

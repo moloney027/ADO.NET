@@ -1,0 +1,17 @@
+C:\Projects\RiderProjects\LibrarySystem2\BLL\bin\Debug\BLL.dll
+C:\Projects\RiderProjects\LibrarySystem2\BLL\bin\Debug\BLL.pdb
+C:\Projects\RiderProjects\LibrarySystem2\BLL\bin\Debug\AbstractBLL.dll
+C:\Projects\RiderProjects\LibrarySystem2\BLL\bin\Debug\AbstractDAL.dll
+C:\Projects\RiderProjects\LibrarySystem2\BLL\bin\Debug\DAL.dll
+C:\Projects\RiderProjects\LibrarySystem2\BLL\bin\Debug\Entities.dll
+C:\Projects\RiderProjects\LibrarySystem2\BLL\bin\Debug\Utils.dll
+C:\Projects\RiderProjects\LibrarySystem2\BLL\bin\Debug\AbstractBLL.pdb
+C:\Projects\RiderProjects\LibrarySystem2\BLL\bin\Debug\AbstractDAL.pdb
+C:\Projects\RiderProjects\LibrarySystem2\BLL\bin\Debug\DAL.pdb
+C:\Projects\RiderProjects\LibrarySystem2\BLL\bin\Debug\Entities.pdb
+C:\Projects\RiderProjects\LibrarySystem2\BLL\bin\Debug\Utils.pdb
+C:\Projects\RiderProjects\LibrarySystem2\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Projects\RiderProjects\LibrarySystem2\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Projects\RiderProjects\LibrarySystem2\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Projects\RiderProjects\LibrarySystem2\BLL\obj\Debug\BLL.dll
+C:\Projects\RiderProjects\LibrarySystem2\BLL\obj\Debug\BLL.pdb

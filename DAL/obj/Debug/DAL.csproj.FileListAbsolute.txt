@@ -1,0 +1,15 @@
+C:\Projects\RiderProjects\LibrarySystem2\DAL\bin\Debug\DAL.dll
+C:\Projects\RiderProjects\LibrarySystem2\DAL\bin\Debug\DAL.pdb
+C:\Projects\RiderProjects\LibrarySystem2\DAL\bin\Debug\AbstractDAL.dll
+C:\Projects\RiderProjects\LibrarySystem2\DAL\bin\Debug\Entities.dll
+C:\Projects\RiderProjects\LibrarySystem2\DAL\bin\Debug\System.Data.SqlClient.dll
+C:\Projects\RiderProjects\LibrarySystem2\DAL\bin\Debug\Utils.dll
+C:\Projects\RiderProjects\LibrarySystem2\DAL\bin\Debug\AbstractDAL.pdb
+C:\Projects\RiderProjects\LibrarySystem2\DAL\bin\Debug\Entities.pdb
+C:\Projects\RiderProjects\LibrarySystem2\DAL\bin\Debug\Utils.pdb
+C:\Projects\RiderProjects\LibrarySystem2\DAL\bin\Debug\System.Data.SqlClient.xml
+C:\Projects\RiderProjects\LibrarySystem2\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Projects\RiderProjects\LibrarySystem2\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Projects\RiderProjects\LibrarySystem2\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Projects\RiderProjects\LibrarySystem2\DAL\obj\Debug\DAL.dll
+C:\Projects\RiderProjects\LibrarySystem2\DAL\obj\Debug\DAL.pdb

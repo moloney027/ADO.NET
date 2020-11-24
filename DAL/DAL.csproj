@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+        <ProjectGuid>{A3631AB8-1651-40C0-AE41-1D3D915B2CFE}</ProjectGuid>
+        <OutputType>Library</OutputType>
+        <AppDesignerFolder>Properties</AppDesignerFolder>
+        <RootNamespace>DAL</RootNamespace>
+        <AssemblyName>DAL</AssemblyName>
+        <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+        <FileAlignment>512</FileAlignment>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\Debug\</OutputPath>
+        <DefineConstants>DEBUG;TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugType>pdbonly</DebugType>
+        <Optimize>true</Optimize>
+        <OutputPath>bin\Release\</OutputPath>
+        <DefineConstants>TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <ItemGroup>
+      <Compile Include="AdaptationsDao.cs" />
+      <Compile Include="AuthorDao.cs" />
+      <Compile Include="AuthorsAndBooksDao.cs" />
+      <Compile Include="BookCopyDao.cs" />
+      <Compile Include="BookDao.cs" />
+      <Compile Include="BookIssuanceDao.cs" />
+      <Compile Include="FineDao.cs" />
+      <Compile Include="GenreDao.cs" />
+      <Compile Include="ListGenreDao.cs" />
+      <Compile Include="PublishingHouseDao.cs" />
+      <Compile Include="ReadersDao.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <Reference Include="mscorlib" />
+      <Reference Include="System" />
+      <Reference Include="System.Data" />
+      <Reference Include="System.Data.SqlClient, Version=4.6.1.2, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+        <HintPath>..\packages\System.Data.SqlClient.4.8.2\lib\net461\System.Data.SqlClient.dll</HintPath>
+        <Private>True</Private>
+      </Reference>
+      <Reference Include="System.Xml" />
+    </ItemGroup>
+    <ItemGroup>
+      <None Include="packages.config" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\AbstractDAL\AbstractDAL.csproj">
+        <Project>{df9217ec-b6f0-4cb9-8021-70700c9543d0}</Project>
+        <Name>AbstractDAL</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\Entities\Entities.csproj">
+        <Project>{0def89c4-fcd2-4f32-ae56-1b3d8a199aab}</Project>
+        <Name>Entities</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\Utils\Utils.csproj">
+        <Project>{60c89085-c4f2-4243-9f69-e8a98fd7d1fd}</Project>
+        <Name>Utils</Name>
+      </ProjectReference>
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+    <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+         Other similar extension points exist, see Microsoft.Common.targets.
+    <Target Name="BeforeBuild">
+    </Target>
+    <Target Name="AfterBuild">
+    </Target>
+    -->
+</Project>

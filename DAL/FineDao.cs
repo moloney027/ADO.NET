@@ -28,7 +28,7 @@ namespace FineDAL
                         listFine.Add(new Fine(
                             (int) (dataReader["ID"]),
                             (int) (dataReader["BookIssuanceID"]),
-                            (Byte) (dataReader["Amount"])));
+                            (int) (dataReader["Amount"])));
                 }
             }
             return listFine.AsEnumerable();
@@ -59,7 +59,7 @@ namespace FineDAL
         {
             try
             {
-                const string sqlExpression = "INSERT INTO Fine (ID, BookIssuanceID, Amount) VALUES (@ID, @BookIssuanceID, @Amount)";
+                const string sqlExpression = "INSERT INTO Fine (BookIssuanceID, Amount) VALUES (@BookIssuanceID, @Amount)";
                 using (var connection = Dbsql.GetDbConnection())
                 {
                     connection.Open();

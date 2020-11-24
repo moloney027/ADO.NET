@@ -81,7 +81,7 @@ namespace BookIssuanceDAL
             try
             {
                 const string sqlExpression =
-                    "INSERT INTO BookIssuance (ID, DateOfIssue, DateOfCompletion, LibraryCard, BookCopyID) VALUES (@ID, @DateOfIssue, @DateOfCompletion, @LibraryCard, @BookCopyID)";
+                    "INSERT INTO BookIssuance (DateOfIssue, DateOfCompletion, LibraryCard, BookCopyID) VALUES (@DateOfIssue, @DateOfCompletion, @LibraryCard, @BookCopyID)";
                 using (var connection = Dbsql.GetDbConnection())
                 {
                     connection.Open();

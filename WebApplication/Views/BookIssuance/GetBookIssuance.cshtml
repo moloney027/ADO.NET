@@ -32,10 +32,10 @@
         <div class="form-group col-3">
             <label for="bookCopy">Экземпляр книги</label>
             <select id="bookCopy" class="custom-select" name="bookCopyId">
-@*                 @foreach (var bcm in books) *@
-@*                 { *@
-@*                     <option value="@bcm.Id">@bcm.BookTitle (#@bcm.Id, стелаж №@bcm.Rack, полка №@bcm.Shelf)</option> *@
-@*                 } *@
+                 @foreach (var bcm in books) 
+                 { 
+                     <option value="@bcm.Id">@bcm.BookTitle (#@bcm.Id)</option> 
+                 } 
             </select>
         </div>
         <div class="col-2 mx-auto my-auto">

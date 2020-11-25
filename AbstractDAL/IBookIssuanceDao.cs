@@ -8,5 +8,6 @@ namespace AbstractDAL
         IEnumerable<BookIssuance> GetAll();
         int Create(BookIssuance bookIssuance);
         int Delete(int idBookIssuance);
+        BookIssuance GetById(int id);
     }
 }

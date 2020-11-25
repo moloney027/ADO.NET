@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using AbstractBLL;
+using AbstractDAL;
 using BookDAL;
 using Entities;
 
@@ -8,11 +9,11 @@ namespace BookBLL
 {
     public class BookLogic : IBookLogic
     {
-        private readonly BookDao _bookDao;
+        private readonly IBookDao _bookDao;
 
-        public BookLogic()
+        public BookLogic(IBookDao bookDao)
         {
-            _bookDao = new BookDao();
+            _bookDao = bookDao;
         }
 
         public Book GetById(int id)

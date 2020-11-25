@@ -3,12 +3,23 @@ using FineBLL;
 using System;
 using System.Collections.Generic;
 using System.Web.Mvc;
+using AbstractBLL;
 
 namespace WebApplication.Controllers
 {
     public class FineController : Controller
     {
-        private readonly FineLogic _fineLogic = new FineLogic();
+        private readonly IFineLogic _fineLogic;
+
+        public FineController()
+        {
+        }
+
+        public FineController(IFineLogic fineLogic)
+        {
+            _fineLogic = fineLogic;
+        }
+
         public ActionResult GetFine(int bookIssuanceId)
         {
             TempData["BookIssuanceId"] = bookIssuanceId;

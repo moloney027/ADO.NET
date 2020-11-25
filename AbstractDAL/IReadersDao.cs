@@ -8,5 +8,6 @@ namespace AbstractDAL
         IEnumerable<Readers> GetAll();
         int Create(Readers readers);
         int Delete(int idReaders);
+        Readers GetById(int id);
     }
 }

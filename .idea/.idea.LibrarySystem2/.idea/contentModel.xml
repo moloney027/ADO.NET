@@ -17,6 +17,7 @@
         <e p="IPublishingHouseLogic.cs" t="Include" />
         <e p="IReadersLogic.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
       </e>
       <e p="AbstractDAL" t="IncludeRecursive">
         <e p="AbstractDAL.csproj" t="IncludeRecursive" />
@@ -33,6 +34,7 @@
         <e p="IPublishingHouseDao.cs" t="Include" />
         <e p="IReadersDao.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
       </e>
       <e p="BLL" t="IncludeRecursive">
         <e p="AdaptationsLogic.cs" t="Include" />
@@ -47,6 +49,7 @@
         <e p="GenreLogic.cs" t="Include" />
         <e p="ListGenreLogic.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
         <e p="PublishingHouseLogic.cs" t="Include" />
         <e p="ReadersLogic.cs" t="Include" />
       </e>
@@ -153,6 +156,9 @@
           <e p="jquery.validate.unobtrusive.js" t="Include" />
           <e p="jquery.validate.unobtrusive.min.js" t="Include" />
           <e p="modernizr-2.8.3.js" t="Include" />
+        </e>
+        <e p="Utils" t="Include">
+          <e p="NinjectRegistrations.cs" t="Include" />
         </e>
         <e p="Views" t="Include">
           <e p="_ViewStart.cshtml" t="Include" />

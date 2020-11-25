@@ -88,3 +88,14 @@ C:\Projects\RiderProjects\LibrarySystem2\WebApplication\obj\Debug\WebApplication
 C:\Projects\RiderProjects\LibrarySystem2\WebApplication\obj\Debug\WebApplication.csproj.CopyComplete
 C:\Projects\RiderProjects\LibrarySystem2\WebApplication\obj\Debug\WebApplication.dll
 C:\Projects\RiderProjects\LibrarySystem2\WebApplication\obj\Debug\WebApplication.pdb
+C:\Projects\RiderProjects\LibrarySystem2\WebApplication\bin\AutoMapper.dll
+C:\Projects\RiderProjects\LibrarySystem2\WebApplication\bin\Ninject.dll
+C:\Projects\RiderProjects\LibrarySystem2\WebApplication\bin\AutoMapper.xml
+C:\Projects\RiderProjects\LibrarySystem2\WebApplication\bin\Ninject.xml
+C:\Projects\RiderProjects\LibrarySystem2\WebApplication\bin\Ninject.Web.Common.dll
+C:\Projects\RiderProjects\LibrarySystem2\WebApplication\bin\Ninject.Web.Common.WebHost.dll
+C:\Projects\RiderProjects\LibrarySystem2\WebApplication\bin\Ninject.Web.Mvc.dll
+C:\Projects\RiderProjects\LibrarySystem2\WebApplication\bin\Ninject.Web.Common.xml
+C:\Projects\RiderProjects\LibrarySystem2\WebApplication\bin\Ninject.Web.Common.WebHost.xml
+C:\Projects\RiderProjects\LibrarySystem2\WebApplication\bin\Ninject.Web.Mvc.xml
+C:\Projects\RiderProjects\LibrarySystem2\WebApplication\bin\WebActivatorEx.dll

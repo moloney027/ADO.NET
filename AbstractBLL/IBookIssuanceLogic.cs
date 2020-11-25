@@ -8,5 +8,6 @@ namespace AbstractBLL
         List<BookIssuance> GetAll();
         string Create(BookIssuance bookIssuance);
         string Delete(int idBookIssuance);
+        BookIssuance GetById(int id);
     }
 }

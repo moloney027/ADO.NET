@@ -8,5 +8,6 @@ namespace AbstractBLL
         List<Readers> GetAll();
         string Create(Readers readers);
         string Delete(int idReaders);
+        Readers GetById(int id);
     }
 }

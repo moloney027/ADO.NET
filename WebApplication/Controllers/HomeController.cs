@@ -1,11 +1,21 @@
 ﻿using ReadersBLL;
 using System.Web.Mvc;
+using AbstractBLL;
 
 namespace WebApplication.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ReadersLogic _readersLogic = new ReadersLogic();
+        private readonly IReadersLogic _readersLogic;
+
+        public HomeController(IReadersLogic readersLogic)
+        {
+            _readersLogic = readersLogic;
+        }
+
+        public HomeController()
+        {
+        }
 
         public ActionResult Index()
         {

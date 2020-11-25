@@ -1,4 +1,5 @@
 ﻿using System.Web.Mvc;
+using AbstractBLL;
 using Entities;
 using ReadersBLL;
 
@@ -6,7 +7,16 @@ namespace WebApplication.Controllers
 {
     public class ReaderController : Controller
     {
-        private readonly ReadersLogic _readersLogic = new ReadersLogic();
+        private readonly IReadersLogic _readersLogic;
+
+        public ReaderController(IReadersLogic readersLogic)
+        {
+            _readersLogic = readersLogic;
+        }
+
+        public ReaderController()
+        {
+        }
 
         public ActionResult AllReaders()
         {

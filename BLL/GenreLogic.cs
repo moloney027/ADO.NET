@@ -11,9 +11,9 @@ namespace GenreBLL
     {
         private readonly IGenreDao _genreDao;
 
-        public GenreLogic()
+        public GenreLogic(IGenreDao genreDao)
         {
-            _genreDao = new GenreDao();
+            _genreDao = genreDao;
         }
 
         public List<Genre> GetAll()

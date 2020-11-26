@@ -11,9 +11,9 @@ namespace PublishingHouseBLL
     {
         private IPublishingHouseDao _publishingHouseDao;
 
-        public PublishingHouseLogic()
+        public PublishingHouseLogic(IPublishingHouseDao publishingHouseDao)
         {
-            _publishingHouseDao = new PublishingHouseDao();
+            _publishingHouseDao = publishingHouseDao;
         }
 
         public List<PublishingHouse> GetAll()

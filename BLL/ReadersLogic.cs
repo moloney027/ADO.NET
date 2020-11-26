@@ -9,11 +9,11 @@ namespace ReadersBLL
 {
     public class ReadersLogic : IReadersLogic
     {
-        private ReadersDao _readersDao;
+        private IReadersDao _readersDao;
 
-        public ReadersLogic()
+        public ReadersLogic(IReadersDao readersDao)
         {
-            _readersDao = new ReadersDao();
+            _readersDao = readersDao;
         }
 
         public Readers GetById(int id)

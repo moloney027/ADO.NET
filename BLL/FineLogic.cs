@@ -11,9 +11,9 @@ namespace FineBLL
     {
         private readonly IFineDao _fineDao;
 
-        public FineLogic()
+        public FineLogic(IFineDao fineDao)
         {
-            _fineDao = new FineDao();
+            _fineDao = fineDao;
         }
 
         public List<Fine> GetAll()

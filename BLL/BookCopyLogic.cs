@@ -11,9 +11,9 @@ namespace BookCopyBLL
     {
         private readonly IBookCopyDao _bookCopyDao;
 
-        public BookCopyLogic()
+        public BookCopyLogic(IBookCopyDao bookCopyDao)
         {
-            _bookCopyDao = new BookCopyDao();
+            _bookCopyDao = bookCopyDao;
         }
 
         public List<BookCopy> GetAll()

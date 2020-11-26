@@ -11,9 +11,9 @@ namespace AuthorsAndBooksBLL
     {
         private readonly IAuthorsAndBooksDao _authorsAndBooksDao;
 
-        public AuthorsAndBooksLogic()
+        public AuthorsAndBooksLogic(IAuthorsAndBooksDao authorsAndBooksDao)
         {
-            _authorsAndBooksDao = new AuthorsAndBooksDao();
+            _authorsAndBooksDao = authorsAndBooksDao;
         }
 
         public List<AuthorsAndBooks> GetAll()

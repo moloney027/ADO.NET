@@ -11,9 +11,9 @@ namespace AuthorBLL
     {
         private readonly IAuthorDao _authorDao;
 
-        public AuthorLogic()
+        public AuthorLogic(IAuthorDao authorDao)
         {
-            _authorDao = new AuthorDao();
+            _authorDao = authorDao;
         }
 
         public List<Author> GetAll()

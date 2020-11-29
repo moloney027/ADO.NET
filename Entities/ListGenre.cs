@@ -11,6 +11,12 @@
             GenreID = idGenre;
         }
 
+        public ListGenre(int bookId, int genreId)
+        {
+            BookID = bookId;
+            GenreID = genreId;
+        }
+
         public int IDListGenre { get; set; }
         public int BookID { get; set; }
         public int GenreID { get; set; }

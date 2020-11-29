@@ -23,37 +23,144 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="313c3ed9-112b-4870-8aac-3725e361c2f5" name="Default Changelist" comment="added Ninject">
-      <change afterPath="$PROJECT_DIR$/WebApplication/Utils/MapperConfiguration.cs" afterDir="false" />
+    <list default="true" id="313c3ed9-112b-4870-8aac-3725e361c2f5" name="Default Changelist" comment="added fixes">
+      <change afterPath="$PROJECT_DIR$/WebApplication/App_Start/AutoMapperConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication/Models/AdaptationsModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication/Models/AuthorModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication/Models/AuthorsAndBooksModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication/Models/BookCopyTitleModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication/Models/BookIssuanceModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication/Models/BookModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication/Models/FineModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication/Models/GenreModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication/Models/ListGenreModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication/Models/PublishingHouseModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication/Models/ReadersModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LibrarySystem2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LibrarySystem2/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LibrarySystem2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LibrarySystem2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractBLL/AbstractBLL.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractBLL/AbstractBLL.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractBLL/bin/Debug/AbstractBLL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractBLL/bin/Debug/AbstractBLL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractBLL/bin/Debug/AbstractBLL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractBLL/bin/Debug/AbstractBLL.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractBLL/bin/Debug/Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractBLL/bin/Debug/Entities.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractBLL/bin/Debug/Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractBLL/bin/Debug/Entities.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractBLL/obj/Debug/AbstractBLL.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractBLL/obj/Debug/AbstractBLL.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractBLL/obj/Debug/AbstractBLL.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractBLL/obj/Debug/AbstractBLL.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractBLL/obj/Debug/AbstractBLL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractBLL/obj/Debug/AbstractBLL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractBLL/obj/Debug/AbstractBLL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractBLL/obj/Debug/AbstractBLL.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractDAL/AbstractDAL.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractDAL/AbstractDAL.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractDAL/bin/Debug/AbstractDAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractDAL/bin/Debug/AbstractDAL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractDAL/bin/Debug/AbstractDAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractDAL/bin/Debug/AbstractDAL.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractDAL/bin/Debug/Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractDAL/bin/Debug/Entities.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractDAL/bin/Debug/Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractDAL/bin/Debug/Entities.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractDAL/obj/Debug/AbstractDAL.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractDAL/obj/Debug/AbstractDAL.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AbstractDAL/obj/Debug/AbstractDAL.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractDAL/obj/Debug/AbstractDAL.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL/AuthorLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/AuthorLogic.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL/AuthorsAndBooksLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/AuthorsAndBooksLogic.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL/BookCopyLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/BookCopyLogic.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL/BookIssuanceLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/BookIssuanceLogic.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL/FineLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/FineLogic.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL/GenreLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/GenreLogic.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL/ListGenreLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/ListGenreLogic.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL/PublishingHouseLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/PublishingHouseLogic.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL/ReadersLogic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/ReadersLogic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractDAL/obj/Debug/AbstractDAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractDAL/obj/Debug/AbstractDAL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractDAL/obj/Debug/AbstractDAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractDAL/obj/Debug/AbstractDAL.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL/BLL.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/BLL.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL/bin/Debug/AbstractBLL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/bin/Debug/AbstractBLL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL/bin/Debug/AbstractBLL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/bin/Debug/AbstractBLL.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL/bin/Debug/AbstractDAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/bin/Debug/AbstractDAL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL/bin/Debug/AbstractDAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/bin/Debug/AbstractDAL.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BLL/bin/Debug/BLL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/bin/Debug/BLL.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BLL/bin/Debug/BLL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/bin/Debug/BLL.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL/bin/Debug/DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/bin/Debug/DAL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL/bin/Debug/DAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/bin/Debug/DAL.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL/bin/Debug/Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/bin/Debug/Entities.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL/bin/Debug/Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/bin/Debug/Entities.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL/bin/Debug/Utils.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/bin/Debug/Utils.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL/bin/Debug/Utils.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/bin/Debug/Utils.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BLL/obj/Debug/BLL.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/obj/Debug/BLL.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BLL/obj/Debug/BLL.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/obj/Debug/BLL.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BLL/obj/Debug/BLL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/obj/Debug/BLL.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BLL/obj/Debug/BLL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BLL/obj/Debug/BLL.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/AdaptationsDao.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/AdaptationsDao.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/AuthorDao.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/AuthorDao.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/AuthorsAndBooksDao.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/AuthorsAndBooksDao.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/BookCopyDao.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/BookCopyDao.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/BookDao.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/BookDao.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/BookIssuanceDao.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/BookIssuanceDao.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/DAL.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/DAL.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/FineDao.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/FineDao.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/GenreDao.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/GenreDao.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/ListGenreDao.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/ListGenreDao.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/PublishingHouseDao.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/PublishingHouseDao.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/ReadersDao.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/ReadersDao.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/bin/Debug/AbstractDAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/bin/Debug/AbstractDAL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/bin/Debug/AbstractDAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/bin/Debug/AbstractDAL.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/bin/Debug/DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/bin/Debug/DAL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/bin/Debug/DAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/bin/Debug/DAL.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/bin/Debug/Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/bin/Debug/Entities.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/bin/Debug/Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/bin/Debug/Entities.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/bin/Debug/Utils.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/bin/Debug/Utils.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/bin/Debug/Utils.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/bin/Debug/Utils.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/obj/Debug/DAL.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/obj/Debug/DAL.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAL/obj/Debug/DAL.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/obj/Debug/DAL.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/obj/Debug/DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/obj/Debug/DAL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/obj/Debug/DAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/obj/Debug/DAL.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAL/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/DAL/packages.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/Adaptations.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/Adaptations.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/Author.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/Author.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/AuthorsAndBooks.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/AuthorsAndBooks.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/BookCopy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/BookCopy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/BookIssuance.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/BookIssuance.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/Entities.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/Entities.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/Fine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/Fine.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/Genre.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/Genre.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/ListGenre.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/ListGenre.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/PublishingHouse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/PublishingHouse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/Readers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/Readers.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/bin/Debug/Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/bin/Debug/Entities.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/bin/Debug/Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/bin/Debug/Entities.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/Entities.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/Entities.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/Entities.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/Entities.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/Entities.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/obj/Debug/Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/obj/Debug/Entities.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entities/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/Entities/packages.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibrarySystem2.sln" beforeDir="false" afterPath="$PROJECT_DIR$/LibrarySystem2.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/Utils.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/Utils.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/bin/Debug/Utils.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/bin/Debug/Utils.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/bin/Debug/Utils.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/bin/Debug/Utils.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/obj/Debug/Utils.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/obj/Debug/Utils.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Utils/obj/Debug/Utils.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/obj/Debug/Utils.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/obj/Debug/Utils.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/obj/Debug/Utils.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/obj/Debug/Utils.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/obj/Debug/Utils.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/packages.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/Controllers/BookController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Controllers/BookController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/Controllers/BookIssuanceController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Controllers/BookIssuanceController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/Controllers/FineController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Controllers/FineController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/Controllers/ReaderController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Controllers/ReaderController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/Models/BookCopyModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Models/BookCopyModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/Utils/MapperConfiguration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/Utils/NinjectRegistrations.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Utils/NinjectRegistrations.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/Views/Book/AllBooks.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Views/Book/AllBooks.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/Views/Book/GetBook.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Views/Book/GetBook.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/Views/BookIssuance/GetBookIssuance.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Views/BookIssuance/GetBookIssuance.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/Views/Fine/GetFine.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Views/Fine/GetFine.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/Views/Reader/AllReaders.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Views/Reader/AllReaders.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/Views/Reader/GetReader.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Views/Reader/GetReader.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/Views/Shared/_LayoutAdmin.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Views/Shared/_LayoutAdmin.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication/WebApplication.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/WebApplication.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/bin/AbstractBLL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/AbstractBLL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/bin/AbstractBLL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/AbstractBLL.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/bin/AbstractDAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/AbstractDAL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/bin/AbstractDAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/AbstractDAL.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication/bin/BLL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/BLL.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication/bin/BLL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/BLL.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/bin/DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/DAL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/bin/DAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/DAL.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/bin/Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/Entities.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/bin/Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/Entities.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/bin/Utils.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/Utils.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/bin/Utils.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/Utils.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication/bin/WebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/WebApplication.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication/bin/WebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/WebApplication.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/WebApplication.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/WebApplication.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/WebApplication.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/WebApplication.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/WebApplication.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/WebApplication.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/WebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/WebApplication.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/WebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/WebApplication.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/packages.config" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,68 +172,79 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D6D3AC03-BF86-4882-89C2-EBF3A45CE0A1/50/568279f1/NullReferenceException.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5D97019F-7842-404A-9A90-62A0F80FCAE1/29/ba2154dd/StartPage.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/03C98CFC-8623-445A-8DB7-B66C6FFA5DEF/52/0cb4071f/MvcHandler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/03C98CFC-8623-445A-8DB7-B66C6FFA5DEF/92/5297675f/RazorView.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/03C98CFC-8623-445A-8DB7-B66C6FFA5DEF/5a/76543431/BuildManagerCompiledView.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C2A08500-0E32-4638-B307-E9A7DA0753F9/23/0f25536a/SqlConnection.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/03C98CFC-8623-445A-8DB7-B66C6FFA5DEF/bb/65c5759a/Controller.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/03C98CFC-8623-445A-8DB7-B66C6FFA5DEF/3f/47e251a9/ViewResultBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/03C98CFC-8623-445A-8DB7-B66C6FFA5DEF/b5/758de7ec/ControllerActionInvoker.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/03C98CFC-8623-445A-8DB7-B66C6FFA5DEF/c5/d3cc64a6/ActionMethodDispatcher.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/81C76C49-CBF1-49B9-B335-A27760C86298/c7/f90dac89/HttpApplication.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5D97019F-7842-404A-9A90-62A0F80FCAE1/fd/8c441168/WebPageBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/03C98CFC-8623-445A-8DB7-B66C6FFA5DEF/8d/10f4070e/AsyncControllerActionInvoker.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/81C76C49-CBF1-49B9-B335-A27760C86298/e3/7aaacb12/HttpContext.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C2A08500-0E32-4638-B307-E9A7DA0753F9/23/0f25536a/SqlConnection.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApplication/Models/BookCopyModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/03C98CFC-8623-445A-8DB7-B66C6FFA5DEF/60/5db934a4/WebViewPage.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApplication/Models/BookCopyTitleModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/03C98CFC-8623-445A-8DB7-B66C6FFA5DEF/36/6de8f59d/AsyncResultWrapper.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/DAL/AdaptationsDao.cs" />
-        <option value="$PROJECT_DIR$/DAL/AuthorsAndBooksDao.cs" />
-        <option value="$PROJECT_DIR$/DAL/BookCopyDao.cs" />
-        <option value="$PROJECT_DIR$/DAL/BookDao.cs" />
-        <option value="$PROJECT_DIR$/DAL/GenreDao.cs" />
-        <option value="$PROJECT_DIR$/DAL/ListGenreDao.cs" />
-        <option value="$PROJECT_DIR$/DAL/PublishingHouseDao.cs" />
-        <option value="$PROJECT_DIR$/WebApplication/Models/BookCopyModel.cs" />
-        <option value="$PROJECT_DIR$/WebApplication/Views/Book/AllBooks.cshtml" />
-        <option value="$PROJECT_DIR$/WebApplication/Views/Book/GetBook.cshtml" />
-        <option value="$PROJECT_DIR$/WebApplication/Views/Home/Index.cshtml" />
-        <option value="$PROJECT_DIR$/WebApplication/Views/Reader/GetReader.cshtml" />
-        <option value="$PROJECT_DIR$/WebApplication/Views/Shared/_Layout.cshtml" />
-        <option value="$PROJECT_DIR$/WebApplication/Views/Shared/_LayoutAdmin.cshtml" />
-        <option value="$PROJECT_DIR$/WebApplication/Views/Reader/AllReaders.cshtml" />
-        <option value="$PROJECT_DIR$/Entities/Fine.cs" />
-        <option value="$PROJECT_DIR$/DAL/ReadersDao.cs" />
-        <option value="$PROJECT_DIR$/DAL/BookIssuanceDao.cs" />
-        <option value="$PROJECT_DIR$/WebApplication/Views/Fine/GetFine.cshtml" />
-        <option value="$PROJECT_DIR$/DAL/FineDao.cs" />
-        <option value="$PROJECT_DIR$/WebApplication/Views/BookIssuance/GetBookIssuance.cshtml" />
-        <option value="$PROJECT_DIR$/BLL/BookLogic.cs" />
-        <option value="$PROJECT_DIR$/AbstractDAL/IBookDao.cs" />
-        <option value="$PROJECT_DIR$/AbstractBLL/IBookLogic.cs" />
-        <option value="$PROJECT_DIR$/AbstractDAL/IAdaptationsDao.cs" />
-        <option value="$PROJECT_DIR$/AbstractBLL/IAdaptationsLogic.cs" />
-        <option value="$PROJECT_DIR$/AbstractBLL/IBookIssuanceLogic.cs" />
-        <option value="$PROJECT_DIR$/AbstractDAL/IBookIssuanceDao.cs" />
-        <option value="$PROJECT_DIR$/AbstractBLL/IReadersLogic.cs" />
-        <option value="$PROJECT_DIR$/AbstractDAL/IReadersDao.cs" />
-        <option value="$PROJECT_DIR$/WebApplication/Utils/Registr.cs" />
-        <option value="$PROJECT_DIR$/WebApplication/Utils/NinjectRegistrations.cs" />
-        <option value="$PROJECT_DIR$/WebApplication/Controllers/BookController.cs" />
-        <option value="$PROJECT_DIR$/WebApplication/Controllers/BookIssuanceController.cs" />
-        <option value="$PROJECT_DIR$/WebApplication/Controllers/FineController.cs" />
-        <option value="$PROJECT_DIR$/WebApplication/Controllers/HomeController.cs" />
-        <option value="$PROJECT_DIR$/WebApplication/Controllers/ReaderController.cs" />
-        <option value="$PROJECT_DIR$/WebApplication/Global.asax.cs" />
-        <option value="$PROJECT_DIR$/WebApplication/App_Start/BundleConfig.cs" />
-        <option value="$PROJECT_DIR$/WebApplication/App_Start/FilterConfig.cs" />
-        <option value="$PROJECT_DIR$/WebApplication/App_Start/RouteConfig.cs" />
-        <option value="$PROJECT_DIR$/BLL/AuthorLogic.cs" />
-        <option value="$PROJECT_DIR$/BLL/AuthorsAndBooksLogic.cs" />
-        <option value="$PROJECT_DIR$/BLL/BookCopyLogic.cs" />
-        <option value="$PROJECT_DIR$/BLL/BookIssuanceLogic.cs" />
-        <option value="$PROJECT_DIR$/BLL/FineLogic.cs" />
-        <option value="$PROJECT_DIR$/BLL/GenreLogic.cs" />
-        <option value="$PROJECT_DIR$/BLL/ListGenreLogic.cs" />
         <option value="$PROJECT_DIR$/BLL/PublishingHouseLogic.cs" />
         <option value="$PROJECT_DIR$/BLL/ReadersLogic.cs" />
         <option value="$PROJECT_DIR$/WebApplication/Utils/MapperConfiguration.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Models/BookCopyTitleModel.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Models/AdaptationsModel.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Models/AuthorModel.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Models/AuthorsAndBooksModel.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Models/BookModel.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Models/BookCopyModel.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Models/BookIssuanceModel.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Models/FineModel.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Models/GenreModel.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Models/ListGenreModel.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Models/PublishingHouseModel.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Models/ReadersModel.cs" />
+        <option value="$PROJECT_DIR$/DAL/FineDao.cs" />
+        <option value="$PROJECT_DIR$/Entities/Fine.cs" />
+        <option value="$PROJECT_DIR$/DAL/AdaptationsDao.cs" />
+        <option value="$PROJECT_DIR$/DAL/AuthorDao.cs" />
+        <option value="$PROJECT_DIR$/DAL/AuthorsAndBooksDao.cs" />
+        <option value="$PROJECT_DIR$/DAL/BookCopyDao.cs" />
+        <option value="$PROJECT_DIR$/DAL/BookDao.cs" />
+        <option value="$PROJECT_DIR$/DAL/BookIssuanceDao.cs" />
+        <option value="$PROJECT_DIR$/DAL/GenreDao.cs" />
+        <option value="$PROJECT_DIR$/DAL/ListGenreDao.cs" />
+        <option value="$PROJECT_DIR$/DAL/PublishingHouseDao.cs" />
+        <option value="$PROJECT_DIR$/DAL/ReadersDao.cs" />
+        <option value="$PROJECT_DIR$/Entities/Adaptations.cs" />
+        <option value="$PROJECT_DIR$/Entities/Author.cs" />
+        <option value="$PROJECT_DIR$/Entities/AuthorsAndBooks.cs" />
+        <option value="$PROJECT_DIR$/Entities/BookCopy.cs" />
+        <option value="$PROJECT_DIR$/Entities/BookIssuance.cs" />
+        <option value="$PROJECT_DIR$/Entities/Genre.cs" />
+        <option value="$PROJECT_DIR$/Entities/ListGenre.cs" />
+        <option value="$PROJECT_DIR$/Entities/PublishingHouse.cs" />
+        <option value="$PROJECT_DIR$/Entities/Readers.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Views/Book/AllBooks.cshtml" />
+        <option value="$PROJECT_DIR$/WebApplication/Views/Book/GetBook.cshtml" />
+        <option value="$PROJECT_DIR$/WebApplication/Views/Reader/GetReader.cshtml" />
+        <option value="$PROJECT_DIR$/WebApplication/Controllers/FineController.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Controllers/ReaderController.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Controllers/BookController.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Views/Reader/AllReaders.cshtml" />
+        <option value="$PROJECT_DIR$/WebApplication/Views/Shared/_LayoutAdmin.cshtml" />
+        <option value="$PROJECT_DIR$/WebApplication/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/WebApplication/Controllers/BookIssuanceController.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Views/Fine/GetFine.cshtml" />
+        <option value="$PROJECT_DIR$/WebApplication/Views/BookIssuance/GetBookIssuance.cshtml" />
+        <option value="$PROJECT_DIR$/WebApplication/App_Start/AutoMapperConfig.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Utils/NinjectRegistrations.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/packages.config" />
       </list>
     </option>
   </component>
@@ -138,8 +256,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="sqlserver" />
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34991708" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30016583" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3502052" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.3002736" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -201,7 +319,12 @@
       <updated>1606197922726</updated>
       <workItem from="1606197948541" duration="16297000" />
       <workItem from="1606314006363" duration="9950000" />
-      <workItem from="1606388556350" duration="2545000" />
+      <workItem from="1606388556350" duration="5860000" />
+      <workItem from="1606409863842" duration="721000" />
+      <workItem from="1606542053783" duration="26504000" />
+      <workItem from="1606669784849" duration="951000" />
+      <workItem from="1606670794117" duration="48000" />
+      <workItem from="1606670900921" duration="305000" />
     </task>
     <task id="LOCAL-00001" summary="bugs fixed">
       <created>1606237642106</created>
@@ -217,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606334997014</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added fixes">
+      <created>1606392804810</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606392804810</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,13 +371,15 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="bugs fixed" />
     <MESSAGE value="added Ninject" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Ninject" />
+    <MESSAGE value="added fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="added fixes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="233" y="4" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606202947847">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state x="280" y="5" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606557454129">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="233" y="4" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.689@0.0.1280.689" timestamp="1606202947847" />
+    <state x="280" y="5" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1606557454129" />
     <state x="396" y="49" key="#xdebugger.evaluate" timestamp="1606234940023">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -260,102 +392,120 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="335" y="53" key="Github.UntrackedFilesDialog/0.0.1280.689@0.0.1280.689" timestamp="1606210018285" />
-    <state width="1493" height="9" key="GridCell.Tab.0.bottom" timestamp="1606390516466">
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom" timestamp="1606670742077">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1237" height="248" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1606380809645" />
-    <state width="1493" height="9" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606390516466" />
-    <state width="1493" height="9" key="GridCell.Tab.0.center" timestamp="1606390516466">
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606670742077" />
+    <state width="1493" height="2" key="GridCell.Tab.0.center" timestamp="1606670742077">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1237" height="248" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1606380809645" />
-    <state width="1493" height="9" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1606390516466" />
-    <state width="1493" height="9" key="GridCell.Tab.0.left" timestamp="1606390516466">
+    <state width="1493" height="2" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1606670742077" />
+    <state width="1493" height="2" key="GridCell.Tab.0.left" timestamp="1606670742077">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1237" height="248" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1606380809644" />
-    <state width="1493" height="9" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1606390516466" />
-    <state width="1493" height="9" key="GridCell.Tab.0.right" timestamp="1606390516466">
+    <state width="1493" height="2" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1606670742077" />
+    <state width="1493" height="2" key="GridCell.Tab.0.right" timestamp="1606670742077">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1237" height="248" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1606380809645" />
-    <state width="1493" height="9" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1606390516466" />
-    <state width="1237" height="248" key="GridCell.Tab.1.bottom" timestamp="1606380809645">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state width="1493" height="2" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1606670742077" />
+    <state width="1493" height="308" key="GridCell.Tab.1.bottom" timestamp="1606669571059">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1237" height="248" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1606380809645" />
-    <state width="1237" height="248" key="GridCell.Tab.1.center" timestamp="1606380809645">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state width="1493" height="308" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606669571059" />
+    <state width="1493" height="308" key="GridCell.Tab.1.center" timestamp="1606669571059">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1237" height="248" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1606380809645" />
-    <state width="1237" height="248" key="GridCell.Tab.1.left" timestamp="1606380809645">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state width="1493" height="308" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1606669571059" />
+    <state width="1493" height="308" key="GridCell.Tab.1.left" timestamp="1606669571058">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1237" height="248" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1606380809645" />
-    <state width="1237" height="248" key="GridCell.Tab.1.right" timestamp="1606380809645">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state width="1493" height="308" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1606669571058" />
+    <state width="1493" height="308" key="GridCell.Tab.1.right" timestamp="1606669571059">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1237" height="248" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1606380809645" />
-    <state width="1237" height="248" key="GridCell.Tab.2.bottom" timestamp="1606380809645">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state width="1493" height="308" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1606669571059" />
+    <state width="1493" height="308" key="GridCell.Tab.2.bottom" timestamp="1606669571059">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1237" height="248" key="GridCell.Tab.2.bottom/0.0.1280.689@0.0.1280.689" timestamp="1606380809645" />
-    <state width="1237" height="248" key="GridCell.Tab.2.center" timestamp="1606380809645">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state width="1493" height="308" key="GridCell.Tab.2.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606669571059" />
+    <state width="1493" height="308" key="GridCell.Tab.2.center" timestamp="1606669571059">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1237" height="248" key="GridCell.Tab.2.center/0.0.1280.689@0.0.1280.689" timestamp="1606380809645" />
-    <state width="1237" height="248" key="GridCell.Tab.2.left" timestamp="1606380809645">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state width="1493" height="308" key="GridCell.Tab.2.center/0.0.1536.834@0.0.1536.834" timestamp="1606669571059" />
+    <state width="1493" height="308" key="GridCell.Tab.2.left" timestamp="1606669571059">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1237" height="248" key="GridCell.Tab.2.left/0.0.1280.689@0.0.1280.689" timestamp="1606380809645" />
-    <state width="1237" height="248" key="GridCell.Tab.2.right" timestamp="1606380809645">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state width="1493" height="308" key="GridCell.Tab.2.left/0.0.1536.834@0.0.1536.834" timestamp="1606669571059" />
+    <state width="1493" height="308" key="GridCell.Tab.2.right" timestamp="1606669571059">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1237" height="248" key="GridCell.Tab.2.right/0.0.1280.689@0.0.1280.689" timestamp="1606380809645" />
-    <state width="1237" height="248" key="GridCell.Tab.3.bottom" timestamp="1606380809646">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state width="1493" height="308" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1606669571059" />
+    <state width="1493" height="308" key="GridCell.Tab.3.bottom" timestamp="1606669571060">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1237" height="248" key="GridCell.Tab.3.bottom/0.0.1280.689@0.0.1280.689" timestamp="1606380809646" />
-    <state width="1237" height="248" key="GridCell.Tab.3.center" timestamp="1606380809646">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state width="1493" height="308" key="GridCell.Tab.3.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606669571060" />
+    <state width="1493" height="308" key="GridCell.Tab.3.center" timestamp="1606669571060">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1237" height="248" key="GridCell.Tab.3.center/0.0.1280.689@0.0.1280.689" timestamp="1606380809646" />
-    <state width="1237" height="248" key="GridCell.Tab.3.left" timestamp="1606380809645">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state width="1493" height="308" key="GridCell.Tab.3.center/0.0.1536.834@0.0.1536.834" timestamp="1606669571060" />
+    <state width="1493" height="308" key="GridCell.Tab.3.left" timestamp="1606669571059">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1237" height="248" key="GridCell.Tab.3.left/0.0.1280.689@0.0.1280.689" timestamp="1606380809645" />
-    <state width="1237" height="248" key="GridCell.Tab.3.right" timestamp="1606380809646">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state width="1493" height="308" key="GridCell.Tab.3.left/0.0.1536.834@0.0.1536.834" timestamp="1606669571059" />
+    <state width="1493" height="308" key="GridCell.Tab.3.right" timestamp="1606669571060">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1237" height="248" key="GridCell.Tab.3.right/0.0.1280.689@0.0.1280.689" timestamp="1606380809646" />
-    <state width="1237" height="248" key="GridCell.Tab.4.bottom" timestamp="1606380809646">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state width="1493" height="308" key="GridCell.Tab.3.right/0.0.1536.834@0.0.1536.834" timestamp="1606669571060" />
+    <state width="1493" height="308" key="GridCell.Tab.4.bottom" timestamp="1606669571060">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1237" height="248" key="GridCell.Tab.4.bottom/0.0.1280.689@0.0.1280.689" timestamp="1606380809646" />
-    <state width="1237" height="248" key="GridCell.Tab.4.center" timestamp="1606380809646">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state width="1493" height="308" key="GridCell.Tab.4.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606669571060" />
+    <state width="1493" height="308" key="GridCell.Tab.4.center" timestamp="1606669571060">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1237" height="248" key="GridCell.Tab.4.center/0.0.1280.689@0.0.1280.689" timestamp="1606380809646" />
-    <state width="1237" height="248" key="GridCell.Tab.4.left" timestamp="1606380809646">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state width="1493" height="308" key="GridCell.Tab.4.center/0.0.1536.834@0.0.1536.834" timestamp="1606669571060" />
+    <state width="1493" height="308" key="GridCell.Tab.4.left" timestamp="1606669571060">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1237" height="248" key="GridCell.Tab.4.left/0.0.1280.689@0.0.1280.689" timestamp="1606380809646" />
-    <state width="1237" height="248" key="GridCell.Tab.4.right" timestamp="1606380809646">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state width="1493" height="308" key="GridCell.Tab.4.left/0.0.1536.834@0.0.1536.834" timestamp="1606669571060" />
+    <state width="1493" height="308" key="GridCell.Tab.4.right" timestamp="1606669571060">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1237" height="248" key="GridCell.Tab.4.right/0.0.1280.689@0.0.1280.689" timestamp="1606380809646" />
+    <state width="1493" height="308" key="GridCell.Tab.4.right/0.0.1536.834@0.0.1536.834" timestamp="1606669571060" />
     <state x="233" y="77" key="Rider.ProjectTemplateDialog.Size" timestamp="1606204357253">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="233" y="77" key="Rider.ProjectTemplateDialog.Size/0.0.1280.689@0.0.1280.689" timestamp="1606204357253" />
-    <state x="352" y="24" key="RiderGenerateDialog" timestamp="1606331986237">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state x="422" y="29" key="RiderGenerateDialog" timestamp="1606643662343">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="352" y="24" key="RiderGenerateDialog/0.0.1280.689@0.0.1280.689" timestamp="1606331986237" />
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1606335003003">
-      <screen x="0" y="0" width="1280" height="689" />
+    <state x="422" y="29" key="RiderGenerateDialog/0.0.1536.834@0.0.1536.834" timestamp="1606643662343" />
+    <state x="280" y="94" key="Vcs.Push.Dialog.v2" timestamp="1606392806510">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1606335003003" />
+    <state x="280" y="94" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1606392806510" />
     <state x="514" y="193" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1606202894809">
       <screen x="0" y="0" width="1280" height="689" />
     </state>

@@ -12,6 +12,13 @@
             ReaderAddress = addressReader;
         }
 
+        public Readers(string readerFullName, int readerAge, string readerAddress)
+        {
+            ReaderFullName = readerFullName;
+            ReaderAge = readerAge;
+            ReaderAddress = readerAddress;
+        }
+
         public int LibraryCardReader { get; set; }
         public string ReaderFullName { get; set; }
         public int ReaderAge { get; set; }

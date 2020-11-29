@@ -13,6 +13,14 @@
             AdaptationCountry = countryAdaptation;
         }
 
+        public Adaptations(int bookId, string adaptationType, int adaptationYear, string adaptationCountry)
+        {
+            BookID = bookId;
+            AdaptationType = adaptationType;
+            AdaptationYear = adaptationYear;
+            AdaptationCountry = adaptationCountry;
+        }
+
         public int AdaptationID { get; set; }
         public int BookID { get; set; }
         public string AdaptationType { get; set; }

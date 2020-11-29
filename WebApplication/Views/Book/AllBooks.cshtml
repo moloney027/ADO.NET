@@ -1,5 +1,5 @@
-﻿@using Entities
-@model List<Book>
+﻿@using WebApplication.Models
+@model List<BookModel>
 
 @{
     ViewBag.Title = "Книги Библиотеки";
@@ -8,7 +8,7 @@
     {
         Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
     }
-    var publishingHouses = (List<PublishingHouse>) ViewData["ph"];
+    var publishingHouses = (List<PublishingHouseModel>) ViewData["ph"];
 }
 
 <div class="container">
@@ -42,7 +42,7 @@
                     <div class="form-group">
                         <label for="inputNewPH">Издательство</label>
                         <select class="form-control" id="inputNewPH" name="ph">
-                            @foreach (var d in publishingHouses)
+                            @foreach (PublishingHouseModel d in publishingHouses)
                             {
                                 <option>@d.PublishingHouseTitle</option>
                             }

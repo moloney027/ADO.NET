@@ -11,6 +11,12 @@
             FineAmount = amountFine;
         }
 
+        public Fine(int bookIssuanceId, int fineAmount)
+        {
+            BookIssuanceID = bookIssuanceId;
+            FineAmount = fineAmount;
+        }
+
         public int FineID { get; set; }
         public int BookIssuanceID { get; set; }
         public int FineAmount { get; set; }

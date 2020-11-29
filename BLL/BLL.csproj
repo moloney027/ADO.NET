@@ -64,7 +64,7 @@
     </ItemGroup>
     <ItemGroup>
       <Reference Include="AutoMapper, Version=10.0.0.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005">
-        <HintPath>..\packages\AutoMapper.10.1.1\lib\net461\AutoMapper.dll</HintPath>
+        <HintPath>..\packages\AutoMapper.10.0.0\lib\net461\AutoMapper.dll</HintPath>
         <Private>True</Private>
       </Reference>
       <Reference Include="Microsoft.CSharp" />

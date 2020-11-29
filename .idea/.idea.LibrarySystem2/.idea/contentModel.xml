@@ -99,6 +99,7 @@
       <e p="WebApplication" t="IncludeRecursive">
         <e p="App_Data" t="Include" />
         <e p="App_Start" t="Include">
+          <e p="AutoMapperConfig.cs" t="Include" />
           <e p="BundleConfig.cs" t="Include" />
           <e p="FilterConfig.cs" t="Include" />
           <e p="RouteConfig.cs" t="Include" />
@@ -133,7 +134,18 @@
         <e p="Global.asax" t="Include" />
         <e p="Global.asax.cs" t="Include" />
         <e p="Models" t="Include">
+          <e p="AdaptationsModel.cs" t="Include" />
+          <e p="AuthorModel.cs" t="Include" />
+          <e p="AuthorsAndBooksModel.cs" t="Include" />
           <e p="BookCopyModel.cs" t="Include" />
+          <e p="BookCopyTitleModel.cs" t="Include" />
+          <e p="BookIssuanceModel.cs" t="Include" />
+          <e p="BookModel.cs" t="Include" />
+          <e p="FineModel.cs" t="Include" />
+          <e p="GenreModel.cs" t="Include" />
+          <e p="ListGenreModel.cs" t="Include" />
+          <e p="PublishingHouseModel.cs" t="Include" />
+          <e p="ReadersModel.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive" />
         <e p="packages.config" t="Include" />
@@ -158,7 +170,6 @@
           <e p="modernizr-2.8.3.js" t="Include" />
         </e>
         <e p="Utils" t="Include">
-          <e p="MapperConfiguration.cs" t="Include" />
           <e p="NinjectRegistrations.cs" t="Include" />
         </e>
         <e p="Views" t="Include">

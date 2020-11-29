@@ -1,4 +1,5 @@
-﻿@model List<Entities.Readers>
+﻿@using WebApplication.Models
+@model List<ReadersModel>
 
 @{
     ViewBag.Title = "Читатели";
@@ -11,10 +12,6 @@
 <div class="card">
 <form action="/Reader/AddReader" method="post">
     <div class="form-row">
-        <div class="form-group col-3">
-            <label for="libraryCard">Номер читательского билета</label>
-            <input class="form-control" type="number" required="required" min="1" id="libraryCard" name="libraryCard">
-        </div>
         <div class="form-group col-3">
             <label for="fullName">Полное имя</label>
             <input class="form-control" type="text" required="required" id="fullName" name="fullName">

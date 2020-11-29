@@ -84,8 +84,6 @@ namespace ReadersDAL
                 {
                     connection.Open();
                     var command = new SqlCommand(sqlExpression, connection);
-                    //var param1 = new SqlParameter("@ID", readers.LibraryCardReader);
-                    //command.Parameters.Add(param1);
                     var param2 = new SqlParameter("@FullName", readers.ReaderFullName);
                     command.Parameters.Add(param2);
                     var param3 = new SqlParameter("@Age", readers.ReaderAge);

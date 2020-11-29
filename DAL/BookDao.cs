@@ -81,13 +81,11 @@ namespace BookDAL
             try
             {
                 const string sqlExpression =
-                    "INSERT INTO Book (ID, Title, YearOfWriting, PublishingHouseID, LanguageBook) VALUES (@ID, @Title, @YearOfWriting, @PublishingHouseID, @LanguageBook)";
+                    "INSERT INTO Book (Title, YearOfWriting, PublishingHouseID, LanguageBook) VALUES (@Title, @YearOfWriting, @PublishingHouseID, @LanguageBook)";
                 using (var connection = Dbsql.GetDbConnection())
                 {
                     connection.Open();
                     var command = new SqlCommand(sqlExpression, connection);
-                    var idParam = new SqlParameter("@ID", book.BookID);
-                    command.Parameters.Add(idParam);
                     var titleParam = new SqlParameter("@Title", book.BookTitle);
                     command.Parameters.Add(titleParam);
                     var yearOfWritingParam = new SqlParameter("@YearOfWriting", book.YearOfWriting);

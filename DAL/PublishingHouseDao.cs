@@ -59,13 +59,11 @@ namespace PublishingHouseDAL
         {
             try
             {
-                const string sqlExpression = "INSERT INTO PublishingHouse (ID, Title, DateOfEstablishment) VALUES (@ID, @Title, @DateOfEstablishment)";
+                const string sqlExpression = "INSERT INTO PublishingHouse (Title, DateOfEstablishment) VALUES (@Title, @DateOfEstablishment)";
                 using (var connection = Dbsql.GetDbConnection())
                 {
                     connection.Open();
                     var command = new SqlCommand(sqlExpression, connection);
-                    var param1 = new SqlParameter("@ID", publishingHouse.PublishingHouseID);
-                    command.Parameters.Add(param1);
                     var param2 = new SqlParameter("@Title", publishingHouse.PublishingHouseTitle);
                     command.Parameters.Add(param2);
                     var param3 = new SqlParameter("@DateOfEstablishment", publishingHouse.DateOfEstablishment);

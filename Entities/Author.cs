@@ -14,6 +14,13 @@ namespace Entities
             AuthorPlaceOfBirth = placeBirth;
         }
 
+        public Author(string authorFullName, DateTime authorDateOfBirth, string authorPlaceOfBirth)
+        {
+            AuthorFullName = authorFullName;
+            AuthorDateOfBirth = authorDateOfBirth;
+            AuthorPlaceOfBirth = authorPlaceOfBirth;
+        }
+
         public int AuthorID { get; set; }
         public string AuthorFullName { get; set; }
         public DateTime AuthorDateOfBirth { get; set; }

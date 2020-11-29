@@ -61,13 +61,11 @@ namespace AdaptationsDAL
         {
             try
             {
-                var sqlExpression = "INSERT INTO Adaptations (ID, BookID, TypeAdaptation, Year_, Country) VALUES (@ID, @BookID, @TypeAdaptation, @Year_, @Country)";
+                var sqlExpression = "INSERT INTO Adaptations (BookID, TypeAdaptation, Year_, Country) VALUES (@BookID, @TypeAdaptation, @Year_, @Country)";
                 using (var connection = Dbsql.GetDbConnection())
                 {
                     connection.Open();
                     var command = new SqlCommand(sqlExpression, connection);
-                    var idParam = new SqlParameter("@ID", adaptation.AdaptationID);
-                    command.Parameters.Add(idParam);
                     var bookIdParam = new SqlParameter("@BookID", adaptation.BookID);
                     command.Parameters.Add(bookIdParam);
                     var typeParam = new SqlParameter("@TypeAdaptation", adaptation.AdaptationType);

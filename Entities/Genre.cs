@@ -10,6 +10,11 @@
             GenreTitle = genreTitle;
         }
 
+        public Genre(string genreTitle)
+        {
+            GenreTitle = genreTitle;
+        }
+
         public int GenreID { get; set; }
         public string GenreTitle { get; set; }
     }

@@ -15,6 +15,14 @@ namespace Entities
             BookCopyID = idBookCopy;
         }
 
+        public BookIssuance(DateTime dateOfIssue, DateTime dateOfCompletion, int libraryCard, int bookCopyId)
+        {
+            DateOfIssue = dateOfIssue;
+            DateOfCompletion = dateOfCompletion;
+            LibraryCard = libraryCard;
+            BookCopyID = bookCopyId;
+        }
+
         public int BookIssuanceID { get; set; }
         public DateTime DateOfIssue { get; set; }
         public DateTime DateOfCompletion { get; set; }

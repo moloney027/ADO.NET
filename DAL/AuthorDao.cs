@@ -60,13 +60,11 @@ namespace AuthorDAL
         {
             try
             {
-                var sqlExpression = "INSERT INTO Author (ID, FullName, DateOfBirth, PlaceOfBirth) VALUES (@ID, @FullName, @DateOfBirth, @PlaceOfBirth)";
+                var sqlExpression = "INSERT INTO Author (FullName, DateOfBirth, PlaceOfBirth) VALUES (@FullName, @DateOfBirth, @PlaceOfBirth)";
                 using (var connection = Dbsql.GetDbConnection())
                 {
                     connection.Open();
                     var command = new SqlCommand(sqlExpression, connection);
-                    var idParam = new SqlParameter("@ID", author.AuthorID);
-                    command.Parameters.Add(idParam);
                     var fullNameParam = new SqlParameter("@FullName", author.AuthorFullName);
                     command.Parameters.Add(fullNameParam);
                     var dateParam = new SqlParameter("@DateOfBirth", author.AuthorDateOfBirth);

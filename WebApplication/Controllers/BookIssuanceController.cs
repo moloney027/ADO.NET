@@ -7,6 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Web.Mvc;
 using AbstractBLL;
+using AutoMapper;
 using WebApplication.Models;
 
 namespace WebApplication.Controllers
@@ -17,14 +18,17 @@ namespace WebApplication.Controllers
         private readonly IBookLogic _bookLogic;
         private readonly IReadersLogic _readersLogic;
         private readonly IBookCopyLogic _bookCopyLogic;
+        
+        private readonly IMapper _mapper;
 
         public BookIssuanceController(IBookLogic bookLogic, IBookIssuanceLogic bookIssuanceLogic,
-            IReadersLogic readersLogic, IBookCopyLogic bookCopyLogic)
+            IReadersLogic readersLogic, IBookCopyLogic bookCopyLogic, IMapper mapper)
         {
             _bookLogic = bookLogic;
             _issuanceLogic = bookIssuanceLogic;
             _readersLogic = readersLogic;
             _bookCopyLogic = bookCopyLogic;
+            _mapper = mapper;
         }
 
         public BookIssuanceController()
@@ -35,24 +39,24 @@ namespace WebApplication.Controllers
         {
             TempData["FullName"] = _readersLogic.GetById(libraryCard).ReaderFullName;
             TempData["LibraryCard"] = libraryCard;
-            List<BookCopyModel> bookCopyModels = new List<BookCopyModel>();
+            List<BookCopyTitleModel> bookCopyModels = new List<BookCopyTitleModel>();
             List<BookCopy> bookCopies = _bookCopyLogic.GetAll();
             List<Book> books = _bookLogic.GetAll();
             foreach (BookCopy bc in bookCopies)
             {
                 Book book = books.Find(b => b.BookID == bc.BookID);
-                bookCopyModels.Add(new BookCopyModel(bc.BookCopyID, book.BookID, book.BookTitle));
+                bookCopyModels.Add(new BookCopyTitleModel(bc.BookCopyID, book.BookID, book.BookTitle));
             }
 
             TempData["BookCopy"] = bookCopyModels;
 
-            TempData["BookIssuance"] = _issuanceLogic.GetAll().FindAll(bi => bi.LibraryCard == libraryCard);
+            TempData["BookIssuance"] = _mapper.Map<List<BookIssuanceModel>>(_issuanceLogic.GetAll().FindAll(bi => bi.LibraryCard == libraryCard));
             return RedirectToAction("GetBookIssuance");
         }
 
-        public ActionResult AddBookIssuance(int id, DateTime dateOfIssue, DateTime dateOfCompletion, int bookCopyId)
+        public ActionResult AddBookIssuance(DateTime dateOfIssue, DateTime dateOfCompletion, int bookCopyId)
         {
-            Console.WriteLine(_issuanceLogic.Create(new BookIssuance(id, dateOfIssue, dateOfCompletion,
+            Console.WriteLine(_issuanceLogic.Create(new BookIssuance(dateOfIssue, dateOfCompletion,
                 (int) TempData.Peek("LibraryCard"), bookCopyId)));
             return RedirectToAction("ReaderBookIssuance", new {libraryCard = (int) TempData["LibraryCard"]});
         }
@@ -62,6 +66,11 @@ namespace WebApplication.Controllers
             Console.WriteLine(_issuanceLogic.Delete(id));
             return RedirectToAction("ReaderBookIssuance", new {libraryCard});
         }
+
+        // public ActionResult FindReader(int bookIssuanceId)
+        // {
+        //     
+        // }
 
         public ActionResult GetBookIssuance()
         {

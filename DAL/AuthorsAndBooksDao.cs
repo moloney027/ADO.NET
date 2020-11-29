@@ -60,13 +60,11 @@ namespace AuthorsAndBooksDAL
         {
             try
             {
-                const string sqlExpression = "INSERT INTO AuthorsAndBooks (ID, AuthorID, BookID) VALUES (@ID, @AuthorID, @BookID)";
+                const string sqlExpression = "INSERT INTO AuthorsAndBooks (AuthorID, BookID) VALUES (@AuthorID, @BookID)";
                 using (var connection = Dbsql.GetDbConnection())
                 {
                     connection.Open();
                     var command = new SqlCommand(sqlExpression, connection);
-                    var idParam = new SqlParameter("@ID", authorAndBook.IDAuthorsAndBooks);
-                    command.Parameters.Add(idParam);
                     var idAuthorParam = new SqlParameter("@AuthorID", authorAndBook.AuthorID);
                     command.Parameters.Add(idAuthorParam);
                     var idBookParam = new SqlParameter("@BookID", authorAndBook.BookID);

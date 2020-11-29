@@ -64,7 +64,6 @@ namespace FineDAL
                 {
                     connection.Open();
                     var command = new SqlCommand(sqlExpression, connection);
-                    command.Parameters.AddWithValue("@ID", fine.FineID);
                     command.Parameters.AddWithValue("@BookIssuanceID", fine.BookIssuanceID);
                     command.Parameters.AddWithValue("@Amount", fine.FineAmount);
                     var number = command.ExecuteNonQuery();

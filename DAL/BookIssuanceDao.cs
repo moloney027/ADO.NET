@@ -86,7 +86,6 @@ namespace BookIssuanceDAL
                 {
                     connection.Open();
                     var command = new SqlCommand(sqlExpression, connection);
-                    command.Parameters.AddWithValue("@ID", bookIssuance.BookIssuanceID);
                     command.Parameters.AddWithValue("@DateOfIssue", bookIssuance.DateOfIssue);
                     command.Parameters.AddWithValue("@DateOfCompletion", bookIssuance.DateOfCompletion);
                     command.Parameters.AddWithValue("@LibraryCard", bookIssuance.LibraryCard);

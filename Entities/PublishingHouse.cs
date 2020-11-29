@@ -11,6 +11,12 @@
             DateOfEstablishment = datePH;
         }
 
+        public PublishingHouse(string publishingHouseTitle, int dateOfEstablishment)
+        {
+            PublishingHouseTitle = publishingHouseTitle;
+            DateOfEstablishment = dateOfEstablishment;
+        }
+
         public int PublishingHouseID { get; set; }
         public string PublishingHouseTitle { get; set; }
         public int DateOfEstablishment { get; set; }

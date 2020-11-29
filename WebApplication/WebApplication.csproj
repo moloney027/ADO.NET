@@ -43,7 +43,11 @@
     </PropertyGroup>
     <ItemGroup>
         <Reference Include="AutoMapper, Version=10.0.0.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005">
-          <HintPath>..\packages\AutoMapper.10.1.1\lib\net461\AutoMapper.dll</HintPath>
+          <HintPath>..\packages\AutoMapper.10.0.0\lib\net461\AutoMapper.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="FluentValidation, Version=3.4.0.1, Culture=neutral, PublicKeyToken=a82054b837897c66">
+          <HintPath>..\packages\FluentValidation-Signed.3.4.0.1\lib\Net40\FluentValidation.dll</HintPath>
           <Private>True</Private>
         </Reference>
         <Reference Include="Microsoft.CSharp" />
@@ -142,6 +146,7 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="App_Start\AutoMapperConfig.cs" />
         <Compile Include="App_Start\BundleConfig.cs" />
         <Compile Include="App_Start\FilterConfig.cs" />
         <Compile Include="App_Start\RouteConfig.cs" />
@@ -153,9 +158,19 @@
         <Compile Include="Global.asax.cs">
             <DependentUpon>Global.asax</DependentUpon>
         </Compile>
+        <Compile Include="Models\AdaptationsModel.cs" />
+        <Compile Include="Models\AuthorModel.cs" />
+        <Compile Include="Models\AuthorsAndBooksModel.cs" />
         <Compile Include="Models\BookCopyModel.cs" />
+        <Compile Include="Models\BookCopyTitleModel.cs" />
+        <Compile Include="Models\BookIssuanceModel.cs" />
+        <Compile Include="Models\BookModel.cs" />
+        <Compile Include="Models\FineModel.cs" />
+        <Compile Include="Models\GenreModel.cs" />
+        <Compile Include="Models\ListGenreModel.cs" />
+        <Compile Include="Models\PublishingHouseModel.cs" />
+        <Compile Include="Models\ReadersModel.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
-        <Compile Include="Utils\MapperConfiguration.cs" />
         <Compile Include="Utils\NinjectRegistrations.cs" />
     </ItemGroup>
     <ItemGroup>

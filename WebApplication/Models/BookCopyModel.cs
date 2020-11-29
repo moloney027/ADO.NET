@@ -2,15 +2,13 @@
 {
     public class BookCopyModel
     {
-        public int Id { get; set; }
-        public int BookId { get; set; }
-        public string BookTitle { get; set; }
+        public int BookCopyID { get; set; }
+        public int BookID { get; set; }
 
-        public BookCopyModel(int id, int bookId, string bookTitle)
+        public BookCopyModel(int bookCopyId, int bookId)
         {
-            Id = id;
-            BookId = bookId;
-            BookTitle = bookTitle;
+            BookCopyID = bookCopyId;
+            BookID = bookId;
         }
     }
 }

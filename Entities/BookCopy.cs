@@ -10,6 +10,11 @@
             BookID = idBook;
         }
 
+        public BookCopy(int bookId)
+        {
+            BookID = bookId;
+        }
+
         public int BookCopyID { get; set; }
         public int BookID { get; set; }
     }

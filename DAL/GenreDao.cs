@@ -58,13 +58,11 @@ namespace GenreDAL
         {
             try
             {
-                const string sqlExpression = "INSERT INTO Genre (ID, Title) VALUES (@ID, @Title)";
+                const string sqlExpression = "INSERT INTO Genre (Title) VALUES (@Title)";
                 using (var connection = Dbsql.GetDbConnection())
                 {
                     connection.Open();
                     var command = new SqlCommand(sqlExpression, connection);
-                    var param1 = new SqlParameter("@ID", genre.GenreID);
-                    command.Parameters.Add(param1);
                     var param2 = new SqlParameter("@Title", genre.GenreTitle);
                     command.Parameters.Add(param2);
                     var number = command.ExecuteNonQuery();

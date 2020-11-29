@@ -58,13 +58,11 @@ namespace BookCopyDAL
         {
             try
             {
-                const string sqlExpression = "INSERT INTO BookCopy (ID, BookID) VALUES (@ID, @BookID)";
+                const string sqlExpression = "INSERT INTO BookCopy (BookID) VALUES (@BookID)";
                 using (var connection = Dbsql.GetDbConnection())
                 {
                     connection.Open();
                     var command = new SqlCommand(sqlExpression, connection);
-                    var idParam = new SqlParameter("@ID", bookCopy.BookCopyID);
-                    command.Parameters.Add(idParam);
                     var idBookParam = new SqlParameter("@BookID", bookCopy.BookID);
                     command.Parameters.Add(idBookParam);
                     var number = command.ExecuteNonQuery();

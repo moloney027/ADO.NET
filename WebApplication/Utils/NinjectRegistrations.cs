@@ -1,9 +1,13 @@
-﻿using AbstractBLL;
+﻿using System;
+using System.Linq;
+using System.Web.ModelBinding;
+using AbstractBLL;
 using AbstractDAL;
 using AuthorBLL;
 using AuthorDAL;
 using AuthorsAndBooksBLL;
 using AuthorsAndBooksDAL;
+using AutoMapper;
 using BookBLL;
 using BookCopyBLL;
 using BookCopyDAL;
@@ -28,6 +32,7 @@ namespace LibrarySystem2.Utils
     {
         public override void Load()
         {
+
             Bind<IBookDao>().To<BookDao>().InSingletonScope();
             Bind<IBookLogic>().To<BookLogic>().InSingletonScope();
             Bind<IBookIssuanceDao>().To<BookIssuanceDao>().InSingletonScope();
@@ -48,6 +53,21 @@ namespace LibrarySystem2.Utils
             Bind<IGenreLogic>().To<GenreLogic>().InSingletonScope();
             Bind<IFineDao>().To<FineDao>().InSingletonScope();
             Bind<IFineLogic>().To<FineLogic>().InSingletonScope();
+            
+            
+            var profiles = GetType().Assembly.GetTypes().Where(t => typeof(Profile).IsAssignableFrom(t)).Select(t => (Profile)Activator.CreateInstance(t));
+            
+            var config = new MapperConfiguration(cfg =>
+            {
+                foreach (var profile in profiles)
+                {
+                    cfg.AddProfile(profile);
+                }
+                cfg.ForAllMaps((map, expresion) => expresion.ForAllMembers(options => options.Condition((source, destination, member) => member != null)));
+            });
+            var mapper = config.CreateMapper();
+            Bind<MapperConfiguration>().ToConstant(config).InSingletonScope();
+            Bind<IMapper>().ToConstant(mapper).InSingletonScope();
         }
     }
 }

@@ -11,6 +11,12 @@
             BookID = idBook;
         }
 
+        public AuthorsAndBooks(int authorId, int bookId)
+        {
+            AuthorID = authorId;
+            BookID = bookId;
+        }
+
         public int IDAuthorsAndBooks { get; set; }
         public int AuthorID { get; set; }
         public int BookID { get; set; }

@@ -99,3 +99,16 @@ C:\Projects\RiderProjects\LibrarySystem2\WebApplication\bin\Ninject.Web.Common.x
 C:\Projects\RiderProjects\LibrarySystem2\WebApplication\bin\Ninject.Web.Common.WebHost.xml
 C:\Projects\RiderProjects\LibrarySystem2\WebApplication\bin\Ninject.Web.Mvc.xml
 C:\Projects\RiderProjects\LibrarySystem2\WebApplication\bin\WebActivatorEx.dll
+C:\Projects\RiderProjects\LibrarySystem2\WebApplication\bin\FluentValidation.dll
+C:\Projects\RiderProjects\LibrarySystem2\WebApplication\bin\FluentValidation.pdb
+C:\Projects\RiderProjects\LibrarySystem2\WebApplication\bin\FluentValidation.xml
+C:\Projects\RiderProjects\LibrarySystem2\WebApplication\bin\de\FluentValidation.resources.dll
+C:\Projects\RiderProjects\LibrarySystem2\WebApplication\bin\es\FluentValidation.resources.dll
+C:\Projects\RiderProjects\LibrarySystem2\WebApplication\bin\fr\FluentValidation.resources.dll
+C:\Projects\RiderProjects\LibrarySystem2\WebApplication\bin\it\FluentValidation.resources.dll
+C:\Projects\RiderProjects\LibrarySystem2\WebApplication\bin\nl\FluentValidation.resources.dll
+C:\Projects\RiderProjects\LibrarySystem2\WebApplication\bin\pl\FluentValidation.resources.dll
+C:\Projects\RiderProjects\LibrarySystem2\WebApplication\bin\pt\FluentValidation.resources.dll
+C:\Projects\RiderProjects\LibrarySystem2\WebApplication\bin\ru\FluentValidation.resources.dll
+C:\Projects\RiderProjects\LibrarySystem2\WebApplication\bin\sv\FluentValidation.resources.dll
+C:\Projects\RiderProjects\LibrarySystem2\WebApplication\bin\tr\FluentValidation.resources.dll

@@ -59,13 +59,11 @@ namespace ListGenreDAL
         {
             try
             {
-                const string sqlExpression = "INSERT INTO ListGenre (ID, BookID, GenreID) VALUES (@ID, @BookID, @GenreID)";
+                const string sqlExpression = "INSERT INTO ListGenre (BookID, GenreID) VALUES (@BookID, @GenreID)";
                 using (var connection = Dbsql.GetDbConnection())
                 {
                     connection.Open();
                     var command = new SqlCommand(sqlExpression, connection);
-                    var param1 = new SqlParameter("@ID", listGenre.IDListGenre);
-                    command.Parameters.Add(param1);
                     var param2 = new SqlParameter("@BookID", listGenre.BookID);
                     command.Parameters.Add(param2);
                     var param3 = new SqlParameter("@GenreID", listGenre.GenreID);
